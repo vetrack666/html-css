@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 body{
             background-color: aquamarine;
@@ -13,4 +14,21 @@ body{
         }
         p{
             text-align: justify;
+=======
+@charset "UTF-8";
+body{
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            color: antiquewhite;
+            background-color: lightblue;
+        }
+        h2{
+            color: brown;
+        }
+        p{
+            text-align: justify;
+>>>>>>> 4dda225863b5094fb6325ad2a7b44293121e9869
         }
