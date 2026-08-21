@@ -1,0 +1,40 @@
+/* --- ESTILO PARA CELULAR (PADRÃO) --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Uma coluna só no celular */
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* --- ESTILO PARA TABLET/DESKTOP (MEDIA QUERY) --- */
+/* Quando a tela for maior que 768px, o layout muda */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Fica lado a lado no PC */
+        justify-content: center;
+    }
+
+    .card {
+        width: 45%; /* Cada card ocupa quase metade da tela */
+    }
+}
